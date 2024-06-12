@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>live chat room</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/0b177d2ca1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav class="navbar">
+            <i class="fa-solid fa-comments"></i>
+        </nav>
+        
+        <div class="container"></div>
+        <div class="inputcontainer">
+            <form action="#" id="send-container">
+                <input type="text" id="inputbox" placeholder="Type">
+                <button type="submit" id="btn">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

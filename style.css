@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: bisque;
+}
+
+
+.navbar{
+    margin: 10px;
+    text-align: center;
+}
+
+.container{
+    height: 600px;
+    width: 40%;
+    background-image: url(wp6028948.jpg);
+    background-size: contain;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+
+.message{
+    background-color: rgb(94, 94, 94);
+    color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 35%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+.inputcontainer{
+    border: 2px solid black;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#send-container{
+    background-color:rgb(178, 176, 176);
+}
+
+#inputbox{
+    border: none;
+    outline: none;
+    width: 70%;
+    padding: 10px;
+    background-color: rgb(178, 176, 176);
+}
+
+#btn{
+    border: none;
+    outline: none;
+    padding-left: 10px; 
+    background-color:rgb(178, 176, 176); 
+}
+
+#btn:hover{
+    /* background-color: aqua; */
+    cursor: pointer;
+}
+
+i{
+    font-size: 35px;
+}
